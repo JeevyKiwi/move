@@ -17,7 +17,7 @@
             </value>
             <next>
               <block type="oled_drawtext" id="780">
-                <field name="TEXT">hello people of the meaty world. </field>
+                <field name="TEXT">hello people of the </field>
                 <next>
                   <block type="oled_setcursor" id="817" inline="true">
                     <value name="STARTX">
@@ -32,7 +32,7 @@
                     </value>
                     <next>
                       <block type="oled_drawtext" id="860">
-                        <field name="TEXT">I am Jade Robot for your service.</field>
+                        <field name="TEXT"> meaty world.</field>
                       </block>
                     </next>
                   </block>

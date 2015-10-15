@@ -1,10 +1,10 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="916" inline="false" x="-414" y="-453">
-    <field name="MODE">UNTIL</field>
-    <statement name="DO">
-      <block type="comment_comment" id="527">
-        <field name="TEXT">Lindsay and Jeevan made this</field>
-        <next>
+  <block type="comment_comment" id="527" x="-448" y="-288">
+    <field name="TEXT">Lindsay and Jeevan made this</field>
+    <next>
+      <block type="controls_whileUntil" id="916" inline="false">
+        <field name="MODE">UNTIL</field>
+        <statement name="DO">
           <block type="led_select" id="891" inline="true">
             <field name="ACTION">FLASH</field>
             <value name="LED">
@@ -32,8 +32,8 @@
               </block>
             </next>
           </block>
-        </next>
+        </statement>
       </block>
-    </statement>
+    </next>
   </block>
 </xml>

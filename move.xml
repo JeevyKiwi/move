@@ -16,6 +16,11 @@
         <statement name="DO0">
           <block type="led_select" id="1627" inline="true">
             <field name="ACTION">FLASH</field>
+            <value name="LED">
+              <block type="math_number" id="1634">
+                <field name="NUM">5</field>
+              </block>
+            </value>
           </block>
         </statement>
       </block>

@@ -11,7 +11,7 @@
     </statement>
     <next>
       <block type="controls_if" id="1306" inline="false">
-        <mutation elseif="2" else="1"></mutation>
+        <mutation elseif="1" else="1"></mutation>
         <value name="IF0">
           <block type="logic_compare" id="1313" inline="true">
             <field name="OP">LT</field>
@@ -59,7 +59,14 @@
           </block>
         </statement>
         <statement name="ELSE">
-          <block type="movement_forward" id="1450"></block>
+          <block type="led_select" id="1514" inline="true">
+            <field name="ACTION">FLASH</field>
+            <value name="LED">
+              <block type="math_number" id="1515">
+                <field name="NUM">5</field>
+              </block>
+            </value>
+          </block>
         </statement>
         <next>
           <block type="robot_delay" id="1358" inline="true">
@@ -73,4 +80,5 @@
       </block>
     </next>
   </block>
+  <block type="movement_forward" id="1450" x="55" y="-217"></block>
 </xml>

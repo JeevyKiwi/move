@@ -29,7 +29,7 @@
             <field name="ACTION">FLASH</field>
             <value name="LED">
               <block type="math_number" id="8">
-                <field name="NUM">0</field>
+                <field name="NUM">4</field>
               </block>
             </value>
             <next>
@@ -82,6 +82,15 @@
                     <field name="NUM">180</field>
                   </block>
                 </value>
+                <next>
+                  <block type="movement_leftmotor" id="68" inline="true">
+                    <value name="MOVLEFT">
+                      <block type="math_number" id="96">
+                        <field name="NUM">180</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
               </block>
             </next>
           </block>

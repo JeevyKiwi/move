@@ -1,78 +1,32 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="comment_comment" id="527" x="80" y="-99">
-    <field name="TEXT">Lindsay and Jeevan made this</field>
-    <next>
-      <block type="oled_cleardisplay" id="748">
+  <block type="controls_whileUntil" id="916" inline="false" x="-414" y="-453">
+    <field name="MODE">UNTIL</field>
+    <statement name="DO">
+      <block type="comment_comment" id="527">
+        <field name="TEXT">Lindsay and Jeevan made this</field>
         <next>
-          <block type="oled_setcursor" id="757" inline="true">
-            <value name="STARTX">
-              <block type="math_number" id="764">
-                <field name="NUM">10</field>
-              </block>
-            </value>
-            <value name="STARTY">
-              <block type="math_number" id="771">
-                <field name="NUM">10</field>
+          <block type="led_select" id="891" inline="true">
+            <field name="ACTION">FLASH</field>
+            <value name="LED">
+              <block type="math_number" id="945">
+                <field name="NUM">0</field>
               </block>
             </value>
             <next>
-              <block type="oled_drawtext" id="780">
-                <field name="TEXT">hello people of the </field>
+              <block type="led_select" id="900" inline="true">
+                <field name="ACTION">FLASH</field>
+                <value name="LED">
+                  <block type="math_number" id="958">
+                    <field name="NUM">5</field>
+                  </block>
+                </value>
                 <next>
-                  <block type="oled_setcursor" id="817" inline="true">
-                    <value name="STARTX">
-                      <block type="math_number" id="867">
-                        <field name="NUM">10</field>
+                  <block type="robot_delay" id="909" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="965">
+                        <field name="NUM">200</field>
                       </block>
                     </value>
-                    <value name="STARTY">
-                      <block type="math_number" id="874">
-                        <field name="NUM">20</field>
-                      </block>
-                    </value>
-                    <next>
-                      <block type="oled_drawtext" id="860">
-                        <field name="TEXT"> meaty world. I am </field>
-                        <next>
-                          <block type="oled_setcursor" id="875" inline="true">
-                            <value name="STARTX">
-                              <block type="math_number" id="876">
-                                <field name="NUM">10</field>
-                              </block>
-                            </value>
-                            <value name="STARTY">
-                              <block type="math_number" id="877">
-                                <field name="NUM">20</field>
-                              </block>
-                            </value>
-                            <next>
-                              <block type="oled_drawtext" id="878">
-                                <field name="TEXT">Jade Robot for your</field>
-                                <next>
-                                  <block type="oled_setcursor" id="879" inline="true">
-                                    <value name="STARTX">
-                                      <block type="math_number" id="880">
-                                        <field name="NUM">10</field>
-                                      </block>
-                                    </value>
-                                    <value name="STARTY">
-                                      <block type="math_number" id="881">
-                                        <field name="NUM">20</field>
-                                      </block>
-                                    </value>
-                                    <next>
-                                      <block type="oled_drawtext" id="882">
-                                        <field name="TEXT">service</field>
-                                      </block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
                   </block>
                 </next>
               </block>
@@ -80,6 +34,6 @@
           </block>
         </next>
       </block>
-    </next>
+    </statement>
   </block>
 </xml>

@@ -66,6 +66,9 @@
                 <field name="NUM">5</field>
               </block>
             </value>
+            <next>
+              <block type="movement_right" id="1525"></block>
+            </next>
           </block>
         </statement>
         <next>
@@ -80,5 +83,5 @@
       </block>
     </next>
   </block>
-  <block type="movement_forward" id="1450" x="55" y="-217"></block>
+  <block type="movement_forward" id="1450" x="75" y="-211"></block>
 </xml>

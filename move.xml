@@ -76,16 +76,16 @@
               </block>
             </value>
             <next>
-              <block type="movement_rightmotor" id="30" inline="true">
+              <block type="movement_rightmotor" id="19" inline="true">
                 <value name="MOVRIGHT">
-                  <block type="math_number" id="44">
+                  <block type="math_number" id="20">
                     <field name="NUM">180</field>
                   </block>
                 </value>
                 <next>
-                  <block type="movement_leftmotor" id="68" inline="true">
+                  <block type="movement_leftmotor" id="21" inline="true">
                     <value name="MOVLEFT">
-                      <block type="math_number" id="96">
+                      <block type="math_number" id="22">
                         <field name="NUM">180</field>
                       </block>
                     </value>
@@ -98,7 +98,7 @@
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="19"></block>
+      <block type="movement_stop" id="23"></block>
     </next>
   </block>
 </xml>

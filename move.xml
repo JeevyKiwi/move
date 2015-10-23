@@ -1,10 +1,20 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="33" x="131" y="88">
+  <block type="movement_forward" id="33" x="168" y="114">
     <next>
       <block type="robot_delay" id="35" inline="true">
         <value name="DELAY">
-          <block type="math_number" id="42">
-            <field name="NUM">5000</field>
+          <block type="math_arithmetic" id="189" inline="true">
+            <field name="OP">ADD</field>
+            <value name="A">
+              <block type="math_number" id="196">
+                <field name="NUM">5000</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="203">
+                <field name="NUM">1000</field>
+              </block>
+            </value>
           </block>
         </value>
         <next>

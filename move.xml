@@ -8,7 +8,40 @@
           </block>
         </value>
         <next>
-          <block type="movement_stop" id="58"></block>
+          <block type="movement_left" id="69">
+            <next>
+              <block type="robot_delay" id="71" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="81">
+                    <field name="NUM">1400</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="movement_forward" id="123">
+                    <next>
+                      <block type="robot_delay" id="146" inline="true">
+                        <value name="DELAY">
+                          <block type="math_arithmetic" id="165" inline="true">
+                            <field name="OP">MULTIPLY</field>
+                            <value name="A">
+                              <block type="math_number" id="175">
+                                <field name="NUM">3500</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="182">
+                                <field name="NUM">2</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
         </next>
       </block>
     </next>

@@ -45,9 +45,6 @@
                             </value>
                           </block>
                         </value>
-                        <next>
-                          <block type="movement_stop" id="222"></block>
-                        </next>
                       </block>
                     </next>
                   </block>

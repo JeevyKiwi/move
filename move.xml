@@ -25,7 +25,7 @@
                             <field name="OP">MULTIPLY</field>
                             <value name="A">
                               <block type="math_number" id="175">
-                                <field name="NUM">3500</field>
+                                <field name="NUM">5000</field>
                               </block>
                             </value>
                             <value name="B">

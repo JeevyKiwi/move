@@ -10,8 +10,18 @@
         <next>
           <block type="robot_delay" id="2" inline="true">
             <value name="DELAY">
-              <block type="math_number" id="37">
-                <field name="NUM">5000</field>
+              <block type="math_arithmetic" id="178" inline="true">
+                <field name="OP">MULTIPLY</field>
+                <value name="A">
+                  <block type="math_number" id="37">
+                    <field name="NUM">5000</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="185">
+                    <field name="NUM">2</field>
+                  </block>
+                </value>
               </block>
             </value>
             <next>
@@ -23,6 +33,9 @@
                         <field name="NUM">1600</field>
                       </block>
                     </value>
+                    <next>
+                      <block type="movement_stop" id="201"></block>
+                    </next>
                   </block>
                 </next>
               </block>

@@ -32,7 +32,7 @@
                       <block type="robot_delay" id="10" inline="true">
                         <value name="DELAY">
                           <block type="math_arithmetic" id="11" inline="true">
-                            <field name="OP">MULTIPLY</field>
+                            <field name="OP">ADD</field>
                             <value name="A">
                               <block type="math_number" id="12">
                                 <field name="NUM">5000</field>
@@ -40,7 +40,7 @@
                             </value>
                             <value name="B">
                               <block type="math_number" id="13">
-                                <field name="NUM">2</field>
+                                <field name="NUM">5000</field>
                               </block>
                             </value>
                           </block>
@@ -60,7 +60,7 @@
                                       <block type="robot_delay" id="18" inline="true">
                                         <value name="DELAY">
                                           <block type="math_arithmetic" id="19" inline="true">
-                                            <field name="OP">MULTIPLY</field>
+                                            <field name="OP">ADD</field>
                                             <value name="A">
                                               <block type="math_number" id="20">
                                                 <field name="NUM">5000</field>
@@ -68,7 +68,7 @@
                                             </value>
                                             <value name="B">
                                               <block type="math_number" id="21">
-                                                <field name="NUM">2</field>
+                                                <field name="NUM">5000</field>
                                               </block>
                                             </value>
                                           </block>
@@ -96,7 +96,7 @@
                                                             </value>
                                                             <value name="B">
                                                               <block type="math_number" id="29">
-                                                                <field name="NUM">2</field>
+                                                                <field name="NUM">5000</field>
                                                               </block>
                                                             </value>
                                                           </block>

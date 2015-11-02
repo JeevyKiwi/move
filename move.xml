@@ -17,11 +17,6 @@
                     <field name="NUM">5000</field>
                   </block>
                 </value>
-                <value name="B">
-                  <block type="math_number" id="185">
-                    <field name="NUM">2</field>
-                  </block>
-                </value>
               </block>
             </value>
             <next>

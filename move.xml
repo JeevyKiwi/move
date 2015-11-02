@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="164" inline="true" x="649" y="262">
+  <block type="controls_repeat" id="164" inline="true" x="686" y="288">
     <value name="TIMES">
       <block type="math_number" id="171">
         <field name="NUM">4</field>
@@ -13,8 +13,13 @@
               <block type="math_arithmetic" id="178" inline="true">
                 <field name="OP">MULTIPLY</field>
                 <value name="A">
-                  <block type="math_number" id="37">
-                    <field name="NUM">5000</field>
+                  <block type="math_number" id="231">
+                    <field name="NUM">4000</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="238">
+                    <field name="NUM">2</field>
                   </block>
                 </value>
               </block>

@@ -46,63 +46,63 @@
                           </block>
                         </value>
                         <next>
-                          <block type="movement_left" id="23">
+                          <block type="movement_left" id="14">
                             <next>
-                              <block type="robot_delay" id="25" inline="true">
+                              <block type="robot_delay" id="15" inline="true">
                                 <value name="DELAY">
-                                  <block type="math_number" id="35">
+                                  <block type="math_number" id="16">
                                     <field name="NUM">1400</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="movement_forward" id="45">
+                                  <block type="movement_forward" id="17">
                                     <next>
-                                      <block type="robot_delay" id="47" inline="true">
+                                      <block type="robot_delay" id="18" inline="true">
                                         <value name="DELAY">
-                                          <block type="math_arithmetic" id="54" inline="true">
+                                          <block type="math_arithmetic" id="19" inline="true">
                                             <field name="OP">MULTIPLY</field>
                                             <value name="A">
-                                              <block type="math_number" id="61">
+                                              <block type="math_number" id="20">
                                                 <field name="NUM">5000</field>
                                               </block>
                                             </value>
                                             <value name="B">
-                                              <block type="math_number" id="74">
+                                              <block type="math_number" id="21">
                                                 <field name="NUM">2</field>
                                               </block>
                                             </value>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="movement_left" id="91">
+                                          <block type="movement_left" id="22">
                                             <next>
-                                              <block type="robot_delay" id="108" inline="true">
+                                              <block type="robot_delay" id="23" inline="true">
                                                 <value name="DELAY">
-                                                  <block type="math_number" id="115">
+                                                  <block type="math_number" id="24">
                                                     <field name="NUM">1400</field>
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="movement_forward" id="125">
+                                                  <block type="movement_forward" id="25">
                                                     <next>
-                                                      <block type="robot_delay" id="134" inline="true">
+                                                      <block type="robot_delay" id="26" inline="true">
                                                         <value name="DELAY">
-                                                          <block type="math_arithmetic" id="141" inline="true">
+                                                          <block type="math_arithmetic" id="27" inline="true">
                                                             <field name="OP">MULTIPLY</field>
                                                             <value name="A">
-                                                              <block type="math_number" id="148">
+                                                              <block type="math_number" id="28">
                                                                 <field name="NUM">5000</field>
                                                               </block>
                                                             </value>
                                                             <value name="B">
-                                                              <block type="math_number" id="155">
+                                                              <block type="math_number" id="29">
                                                                 <field name="NUM">2</field>
                                                               </block>
                                                             </value>
                                                           </block>
                                                         </value>
                                                         <next>
-                                                          <block type="movement_stop" id="166"></block>
+                                                          <block type="movement_stop" id="30"></block>
                                                         </next>
                                                       </block>
                                                     </next>

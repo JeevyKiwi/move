@@ -19,25 +19,16 @@
       </block>
     </statement>
     <next>
-      <block type="controls_repeat" id="292" inline="true">
-        <value name="TIMES">
-          <block type="math_number" id="299">
-            <field name="NUM">1</field>
-          </block>
-        </value>
-        <statement name="DO">
-          <block type="movement_left" id="6">
-            <next>
-              <block type="robot_delay" id="7" inline="true">
-                <value name="DELAY">
-                  <block type="math_number" id="8">
-                    <field name="NUM">1600</field>
-                  </block>
-                </value>
+      <block type="movement_left" id="6">
+        <next>
+          <block type="robot_delay" id="7" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="8">
+                <field name="NUM">1600</field>
               </block>
-            </next>
+            </value>
           </block>
-        </statement>
+        </next>
       </block>
     </next>
   </block>

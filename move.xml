@@ -88,7 +88,7 @@
                                                       <block type="robot_delay" id="26" inline="true">
                                                         <value name="DELAY">
                                                           <block type="math_arithmetic" id="27" inline="true">
-                                                            <field name="OP">MULTIPLY</field>
+                                                            <field name="OP">ADD</field>
                                                             <value name="A">
                                                               <block type="math_number" id="28">
                                                                 <field name="NUM">5000</field>
